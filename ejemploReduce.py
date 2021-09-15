@@ -7,4 +7,5 @@ def suma(a,b):
 
 sumatoria = reduce(suma, elementos)
 
+
 print(sumatoria)
