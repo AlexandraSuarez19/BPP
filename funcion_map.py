@@ -1,9 +1,8 @@
 elementos = [2,3,4,5,7,17]
 
-resultado = []
+def elevar_cuadrado(n):
+    return n**2
 
-for i in elementos:
-    temp = i**2
-    resultado.append(temp)
+resultado = list(map(elevar_cuadrado, elementos))
 
 print(resultado)
